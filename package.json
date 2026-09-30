@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-order-notifier",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shopify app (Laravel backend) that sends a WhatsApp confirmation for every new order",
+  "scripts": {
+    "setup": "node scripts/setup.mjs",
+    "shopify": "shopify",
+    "dev": "shopify app dev",
+    "info": "shopify app info",
+    "deploy": "shopify app deploy"
+  },
+  "dependencies": {
+    "@shopify/cli": "^4.8.3"
+  },
+  "engines": {
+    "node": ">=20.10"
+  }
+}

@@ -1,0 +1,6 @@
+name = "Laravel"
+roles = ["frontend", "backend"]
+
+[commands]
+predev = "composer install --no-interaction && php artisan migrate --force"
+dev = "node scripts/serve.mjs"

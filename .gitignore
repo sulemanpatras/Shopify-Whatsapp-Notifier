@@ -1,0 +1,9 @@
+node_modules/
+.shopify/
+.env
+web/.env
+web/vendor/
+web/node_modules/
+web/storage/*.key
+web/database/*.sqlite
+.DS_Store
